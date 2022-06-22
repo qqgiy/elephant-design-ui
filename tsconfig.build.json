@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "module": "esnext",
+      "target": "es5",
+      "declaration": true,
+      "preserveConstEnums": true,
+      "jsx": "react",
+      "moduleResolution":"Node",
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+
+      // "allowJs": true,
+      // "resolveJsonModule": true,
+      // "strictNullChecks": true,
+      // "esModuleInterop": true,
+      // "experimentalDecorators": true,
+      // "noUnusedParameters": true,
+      // "noUnusedLocals": true,
+      // "noImplicitAny": true,
+      // "lib": ["dom", "es2017"],
+    },
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "src/**/*.test.tsx",
+      "src/**/*.stories.tsx",
+      "src/setupTests.ts",
+    ]
+  }
